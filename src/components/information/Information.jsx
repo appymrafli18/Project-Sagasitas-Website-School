@@ -5,7 +5,7 @@ const Information = () => {
         <h1 className="text-2xl md:text-3xl lg:text-4xl text-center py-4 font-bold">Information</h1>
         <h1 className="text-2xl md:text-3xl text-center w-full bg-[#9FB0FE] font-bold">Sejarah</h1>
         <div className="container mx-auto px-8 mb-8">
-          <div className="info-box flex flex-col md:flex-row justify-between items-center px-4 py-8">
+          <div className="info-box flex flex-col lg:flex-row justify-between gap-4 px-4 py-8">
             <img src="./vector/infobg1.png" alt="Information background" />
             <p>
               SMK Strada Jakarta merupakan satu satunya sekolah yang dikelola oleh Yayasan Bina Teknik Strada yang beralamat di Jl. Rajawali Selatan II No. 1 Jakarta Pusat yang. Sekolah ini berdiri berawal dari sebuah keperihatinan Pastor
