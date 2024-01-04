@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  * {
+    font-family: 'Lexend', sans-serif;
+  }
+
+  .border-bot {
+    border-bottom: 1px solid black;
+  }
+
+  .nav-hidden {
+    display: none;
+    opacity: 0;
+    -o-transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    transform: translateX(-100px);
+    transform-origin: top;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  .nav-block {
+    display: block;
+    opacity: 1;
+    -o-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
